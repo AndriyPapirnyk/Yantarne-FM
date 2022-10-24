@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (6)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (6)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (6)/favicon-16x16.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Yantarne FM</title>
+</head>
+<body>
+<div class="darkCol"></div>    
+ <div class="wrap">
+    <img class="absImg" src="img/pp.png" alt="">
+    <div class="outer">
+    <img class="recorderImg" src="img/vin.png" alt="">
+    </div>
+    <div class="iconHolder">
+    <div class="liveDiv">
+        <img class="liveImg" src="img/live.png" alt="">
+        <p class="liveCount"></p>
+    </div>
+    <img class="icon" src="img/icon.png" alt="">
+    </div>
+    <div class="row">
+        <img class="playBtn" src="img/p1.png" id="playBtn">
+        <div class="mainBox">
+        <h2 class="songName"></h2>
+        <div class="sliderBox">
+        <img class="soundIco" src="img/p4.png" alt="">
+        <input class="slider" type="range" min="0" max="1" id="volumeInp" step="0.01">
+        <img class="soundIco" src="img/p3.png" alt="">
+        </div>
+        </div>
+    </div>
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="#e74763" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="#bb6cca" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="#3a89db" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#008592" />
+    </g>
+    </svg>
+    </div>
+ </div>
+ <div class="page2">
+    <div class="block b1" >
+        <a href="https://www.facebook.com/yantarne.fm"> <img class="socialmediaIcon" src="img/facebookImg.png" alt=""> </a>
+        <form id="w1"  class="ufive-input"></form>
+    </div>
+    <div class="block b2">
+        <a href="https://www.instagram.com/yantarne.fm/?hl=en"> <img class="socialmediaIcon" src="img/instImg.png" alt=""> </a>
+        <form id="w2" class="ufive-input"></form>
+    </div>
+    <div class="block b3">
+        <a href="https://soundcloud.com/andriy-yantarne"> <img class="socialmediaIcon pp2" src="img/soundcloudImg.png" alt=""> </a>
+        <form id="w3" class="ufive-input"></form>
+    </div>
+    <div class="block b4">
+        <a href="https://www.youtube.com/c/YantarneFM"> <img class="socialmediaIcon" src="img/youtubeImg.png" alt=""> </a>
+        <form id="w4" class="ufive-input"></form>
+    </div>
+ </div>
+ <div class="page3">
+    <div class="partnerBox box1">
+        <img class="partnerImg partnerImg1" src="img/creator.jpg" alt="">
+    </div>
+    <div class="partnerBox box2">
+        <img class="partnerImg partnerImg2" src="img/defilyada.png" alt="">
+    </div>
+    <div class="partnerBox box3">
+        <img class="partnerImg partnerImg3" src="img/roduna.png" alt="">
+    </div>
+    <div class="darker">
+        <h2 class="darkerTxt">Наші партнери</h2>
+    </div>
+ </div>
+ <div class="page4">
+    <h2 class="p3Title">м .Новояворівськ вул.Шевченка 1</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2184.0269392178575!2d23.564649629379705!3d49.932382086911865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b3d885babbb05%3A0x309d217b3aacf15b!2sTsentr%20Nadannya%20Administratyvnykh%20Posluh%20M%20.%20Novoiavorivsk!5e0!3m2!1sru!2sua!4v1666129130733!5m2!1sru!2sua"  width="100%" height="80%" style="border:0;" allowfullscreen="" class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>
